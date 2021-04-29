@@ -1,0 +1,89 @@
+{
+	"FetchData": {
+		"failed_fetch_retainer_list": "キャラクターIDを取得できませんでした。再ログインを試してください。",
+		"failed_read_local_retainer_list": "ローカルリテイナーデータがありません。再取得を試してください。",
+		"fetch_player_data": "キャラクターデータの読み込み中…",
+		"fetch_retainer_data": "リテイナー %s の読み込み中…",
+		"fetch_retainer_list": "リテイナーリストの読み込み中…",
+		"logout_player": "Lodestone からログアウトしています…",
+		"success_fetch_login": "データを取得しました"
+	},
+	"General": {
+		"appname": "ナマズおサイフ",
+		"btn_cancel": "いいえ",
+		"btn_confirm": "はい",
+		"copyright": "FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.\nFINAL FANTASY XIV © SQUARE ENIX CO., LTD. All Rights Reserved.\nThis application is not affiliated with Square Enix.",
+		"hour": "時間",
+		"minute": "分"
+	},
+	"LodestoneLogin": {
+		"attention_modal_accept": "はい",
+		"attention_modal_content1": "リテイナー情報自動取得のため、Lodestone ログイン情報（クッキー）はお使いのデバイスで保存、使用されます。\nLodestone 以外には送信しません。",
+		"attention_modal_content2": "登録ID、パスワード、ワンタイムパスワードは保存されません。",
+		"attention_modal_content3": "同意いただける場合は、Lodestone ログイン情報使用の了承とみなされます。",
+		"attention_modal_decline": "いいえ",
+		"attention_modal_title": "ログイン情報について"
+	},
+	"Menu": {
+		"about": "このアプリについて",
+		"feedback": "問い合わせ",
+		"license": "ライセンス",
+		"mypage": "マイページ",
+		"preference": "設定",
+		"retainer": "売上履歴",
+		"weblogin": "ログイン"
+	},
+	"MyPage": {
+		"already_login": "すでにログインしてる"
+	},
+	"Preference": {
+		"background_fetch_alarmmanager_desc": "アラグ技術で売上履歴を取得します。\nデバイスのエーテル消費量が多いが、ナマズオたちの情報収集が定刻になるだろう。",
+		"background_fetch_alarmmanager_title": "有効",
+		"background_fetch_disabled_desc": "ナマズオたちを休ませる",
+		"background_fetch_disabled_title": "無効",
+		"background_fetch_interval_title": "自動取得頻度",
+		"background_fetch_jobscheduler_desc": "エオルゼア技術で売上履歴を取得します。\nデバイスのエーテル消費量が少ないが、ナマズオたちの情報収集が遅れる場合があります。",
+		"background_fetch_jobscheduler_title": "有効（エコモード）",
+		"background_fetch_start_desc": "バックグラウンド取得タスクを実行させる（デバッグ用）",
+		"background_fetch_start_title": "自動取得の実行",
+		"background_fetch_title": "売上履歴の自動取得",
+		"delete_all_record_desc": "デバイス上で保存される売上履歴を削除します",
+		"delete_all_record_title": "全売上履歴の削除",
+		"dialog_confirm_desc": "よろしいですか？",
+		"get_sales_manually_desc": "すべてのリテイナーの売上履歴を取得します",
+		"get_sales_manually_title": "手動取得",
+		"language_auto": "システム言語基準",
+		"language_title": "ゲーム言語",
+		"logout_desc": "Lodestone からログアウトして、保存してるログイン情報を削除します",
+		"logout_title": "ログアウト",
+		"refetch_char_desc": "Lodestone からキャラ情報とリテイナー情報を再取得します",
+		"refetch_char_title": "キャラ情報の再取得",
+		"regenerate_gamedb_desc": "ゲーム内アイテムデータベースを再構築します",
+		"regenerate_gamedb_title": "アイテムデータベースの再構築",
+		"switch_char_desc": "ログインしてるキャラの切り替えを行います",
+		"switch_char_title": "キャラ切替",
+		"time_12h": "12 時間",
+		"time_1h": "1 時間",
+		"time_2h": "2 時間",
+		"time_30m": "30 分",
+		"time_4h": "4 時間",
+		"time_6h": "6 時間",
+		"waiting_for_implement": "まだ開発中…"
+	},
+	"PushNotification": {
+		"channel_general_desc": "ナマズオたちが使ってる通知機能。アイテムが売れたときにプッシュ通知が受信します。",
+		"channel_general_title": "通常プッシュ通知",
+		"soldmessage": "マーケットで出品した %s つのアイテムが売れ、%s ギルを入手しました。",
+		"title": "売れたっぺ"
+	},
+	"RetainerPage": {
+		"filter_btn_filter": "フィルタセット",
+		"filter_btn_reset": "リセット",
+		"filter_title": "フィルター",
+		"filter_title_buyer": "購入者",
+		"filter_title_itemname": "アイテム名",
+		"filter_title_price": "取引価格",
+		"filter_title_retainer": "リテイナー",
+		"no_sales_record": "条件に合った記録がありません。"
+	}
+}
