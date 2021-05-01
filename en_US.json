@@ -1,89 +1,94 @@
 {
-	"FetchData": {
-		"failed_fetch_retainer_list": "Cannot get player ID. Try login again.",
-		"failed_read_local_retainer_list": "No retainer exists. Try to sync retainer with lodestone.",
-		"fetch_player_data": "Loading character data...",
-		"fetch_retainer_data": "Loading retainer %s's data...",
-		"fetch_retainer_list": "Loading retainer list...",
-		"logout_player": "Logging out from Lodestone...",
-		"success_fetch_login": "Successfully fetched data."
-	},
-	"General": {
-		"appname": "Namazu Finance",
-		"btn_cancel": "Cancel",
-		"btn_confirm": "OK",
-		"copyright": "FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.\nFINAL FANTASY XIV © SQUARE ENIX CO., LTD. All Rights Reserved.\nThis application is not affiliated with Square Enix.",
-		"hour": "hour(s)",
-		"minute": "minute(s)"
-	},
-	"LodestoneLogin": {
-		"attention_modal_accept": "Accept",
-		"attention_modal_content1": "Your Lodestone Credentials (aka. cookie) will be saved only for fetch retainer's information automatically.",
-		"attention_modal_content2": "We won't save your account, password or one-time password.",
-		"attention_modal_content3": "By continue, you agree with the usage of your Lodestone Credentials.",
-		"attention_modal_decline": "Decline",
-		"attention_modal_title": "About your login"
-	},
-	"Menu": {
-		"about": "About",
-		"feedback": "Feedback",
-		"license": "License",
-		"mypage": "My Page",
-		"preference": "Preference",
-		"retainer": "Sales Records",
-		"weblogin": "Login"
-	},
-	"MyPage": {
-		"already_login": "You've logged in already."
-	},
-	"Preference": {
-		"background_fetch_alarmmanager_desc": "Fetch sales record by Allagan-tech with high precision but may consume more battery.",
-		"background_fetch_alarmmanager_title": "Automatically",
-		"background_fetch_disabled_desc": "Let namazus take a break.",
-		"background_fetch_disabled_title": "Disabled",
-		"background_fetch_interval_title": "Background fetch interval",
-		"background_fetch_jobscheduler_desc": "Fetch sales record by Eorzea-tech which saves battery but intervals are not stable.",
-		"background_fetch_jobscheduler_title": "Automatically (Power saving)",
-		"background_fetch_start_desc": "Start background fetch task manually (for debug)",
-		"background_fetch_start_title": "Enable background fetch manually",
-		"background_fetch_title": "Background fetch",
-		"delete_all_record_desc": "Delete all sales records at your device.",
-		"delete_all_record_title": "Delete all sales records",
-		"dialog_confirm_desc": "Are you sure?",
-		"get_sales_manually_desc": "Fetch sales record from all retainers manually.",
-		"get_sales_manually_title": "Fetch records manually",
-		"language_auto": "Auto (same with system language)",
-		"language_title": "Game language",
-		"logout_desc": "Log out from Lodestone, and delete saved Credentials.",
-		"logout_title": "Log out",
-		"refetch_char_desc": "Fetch character and retainer data again from Lodestone.",
-		"refetch_char_title": "Re-fetch character data",
-		"regenerate_gamedb_desc": "Delete current item database and re-generate.",
-		"regenerate_gamedb_title": "Re-generate item database.",
-		"switch_char_desc": "Change character has logged in currently.",
-		"switch_char_title": "Switch character",
-		"time_12h": "12 hours",
-		"time_1h": "1 hours",
-		"time_2h": "2 hours",
-		"time_30m": "30 minutes",
-		"time_4h": "4 hours",
-		"time_6h": "6 hours",
-		"waiting_for_implement": "Still on implement..."
-	},
-	"PushNotification": {
-		"channel_general_desc": "Namazu will notify you when your retainer has sold some item.",
-		"channel_general_title": "General Notifications",
-		"soldmessage": "%s item(s) you put up for sale in the markets have sold for %s gil (after fees).",
-		"title": "Item has sold!"
-	},
-	"RetainerPage": {
-		"filter_btn_filter": "OK",
-		"filter_btn_reset": "Reset",
-		"filter_title": "Filter",
-		"filter_title_buyer": "Buyer",
-		"filter_title_itemname": "Item Name",
-		"filter_title_price": "Price",
-		"filter_title_retainer": "Retainer",
-		"no_sales_record": "No matched record."
-	}
+  "FetchData": {
+    "failed_fetch_retainer_list": "Cannot get player ID. Try login again.",
+    "failed_read_local_retainer_list": "No retainer exists. Try to sync retainer with lodestone.",
+    "fetch_player_data": "Loading character data...",
+    "fetch_retainer_data": "Loading retainer %s's data...",
+    "fetch_retainer_list": "Loading retainer list...",
+    "logout_player": "Logging out from Lodestone...",
+    "success_fetch_login": "Successfully fetched data."
+  },
+  "General": {
+    "appname": "Namazu Finance",
+    "btn_cancel": "Cancel",
+    "btn_confirm": "OK",
+    "copyright": "FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.\nFINAL FANTASY XIV © SQUARE ENIX CO., LTD. All Rights Reserved.\nThis application is not affiliated with Square Enix.",
+    "hour": "hour(s)",
+    "minute": "minute(s)"
+  },
+  "LodestoneLogin": {
+    "attention_modal_accept": "Accept",
+    "attention_modal_content1": "Your Lodestone Credentials (aka. cookie) will be saved only for fetch retainer's information automatically.",
+    "attention_modal_content2": "We won't save your account, password or one-time password.",
+    "attention_modal_content3": "By continue, you agree with the usage of your Lodestone Credentials.",
+    "attention_modal_decline": "Decline",
+    "attention_modal_title": "About your login"
+  },
+  "Menu": {
+    "about": "About",
+    "feedback": "Feedback",
+    "license": "License",
+    "mypage": "My Page",
+    "preference": "Preference",
+    "retainer": "Sales Records",
+    "weblogin": "Login"
+  },
+  "MyPage": {
+    "already_login": "You've logged in already.",
+    "card_not_login": "Tap to login",
+    "card_retainer_name": "Retainer",
+    "card_quantity_count": "Total quantity",
+    "card_total_gil": "Sales amount",
+    "card_sales_count": "Total records"
+  },
+  "Preference": {
+    "background_fetch_alarmmanager_desc": "Fetch sales record by Allagan-tech with high precision but may consume more battery.",
+    "background_fetch_alarmmanager_title": "Automatically",
+    "background_fetch_disabled_desc": "Let namazus take a break.",
+    "background_fetch_disabled_title": "Disabled",
+    "background_fetch_interval_title": "Background fetch interval",
+    "background_fetch_jobscheduler_desc": "Fetch sales record by Eorzea-tech which saves battery but intervals are not stable.",
+    "background_fetch_jobscheduler_title": "Automatically (Power saving)",
+    "background_fetch_start_desc": "Start background fetch task manually (for debug)",
+    "background_fetch_start_title": "Enable background fetch manually",
+    "background_fetch_title": "Background fetch",
+    "delete_all_record_desc": "Delete all sales records at your device.",
+    "delete_all_record_title": "Delete all sales records",
+    "dialog_confirm_desc": "Are you sure?",
+    "get_sales_manually_desc": "Fetch sales record from all retainers manually.",
+    "get_sales_manually_title": "Fetch records manually",
+    "language_auto": "Auto (same with system language)",
+    "language_title": "Game language",
+    "logout_desc": "Log out from Lodestone, and delete saved Credentials.",
+    "logout_title": "Log out",
+    "refetch_char_desc": "Fetch character and retainer data again from Lodestone.",
+    "refetch_char_title": "Re-fetch character data",
+    "regenerate_gamedb_desc": "Delete current item database and re-generate.",
+    "regenerate_gamedb_title": "Re-generate item database.",
+    "switch_char_desc": "Change character has logged in currently.",
+    "switch_char_title": "Switch character",
+    "time_12h": "12 hours",
+    "time_1h": "1 hours",
+    "time_2h": "2 hours",
+    "time_30m": "30 minutes",
+    "time_4h": "4 hours",
+    "time_6h": "6 hours",
+    "waiting_for_implement": "Still on implement..."
+  },
+  "PushNotification": {
+    "channel_general_desc": "Namazu will notify you when your retainer has sold some item.",
+    "channel_general_title": "General Notifications",
+    "soldmessage": "%s item(s) you put up for sale in the markets have sold for %s gil (after fees).",
+    "title": "Item has sold!"
+  },
+  "RetainerPage": {
+    "filter_btn_filter": "OK",
+    "filter_btn_reset": "Reset",
+    "filter_title": "Filter",
+    "filter_title_buyer": "Buyer",
+    "filter_title_itemname": "Item Name",
+    "filter_title_price": "Price",
+    "filter_title_retainer": "Retainer",
+    "no_sales_record": "No matched record."
+  }
 }
