@@ -31,7 +31,8 @@
     "mypage": "个人页面",
     "preference": "设置",
     "retainer": "销售记录",
-    "weblogin": "登录"
+    "weblogin": "登录",
+    "Detail": "详情"
   },
   "MyPage": {
     "already_login": "已成功登录。",
@@ -73,7 +74,8 @@
     "time_30m": "30 分钟",
     "time_4h": "4 小时",
     "time_6h": "6 小时",
-    "waiting_for_implement": "还没写完…"
+    "waiting_for_implement": "还没写完…",
+    "not_login": "请先登录"
   },
   "PushNotification": {
     "channel_general_desc": "当你的雇员成功售出物品时，鲶鲶会发送消息通知你。",

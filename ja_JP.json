@@ -31,7 +31,8 @@
     "mypage": "マイページ",
     "preference": "設定",
     "retainer": "売上履歴",
-    "weblogin": "ログイン"
+    "weblogin": "ログイン",
+    "Detail": "詳細情報"
   },
   "MyPage": {
     "already_login": "すでにログインしてる",
@@ -73,7 +74,8 @@
     "time_30m": "30 分",
     "time_4h": "4 時間",
     "time_6h": "6 時間",
-    "waiting_for_implement": "まだ開発中…"
+    "waiting_for_implement": "まだ開発中…",
+    "not_login": "ログイン後に使えます"
   },
   "PushNotification": {
     "channel_general_desc": "ナマズオたちが使ってる通知機能。アイテムが売れたときにプッシュ通知が受信します。",

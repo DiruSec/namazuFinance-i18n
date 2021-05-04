@@ -31,7 +31,8 @@
     "mypage": "My Page",
     "preference": "Preference",
     "retainer": "Sales Records",
-    "weblogin": "Login"
+    "weblogin": "Login",
+    "Detail": "Details"
   },
   "MyPage": {
     "already_login": "You've logged in already.",
@@ -73,7 +74,8 @@
     "time_30m": "30 minutes",
     "time_4h": "4 hours",
     "time_6h": "6 hours",
-    "waiting_for_implement": "Still on implement..."
+    "waiting_for_implement": "Still on implement...",
+    "not_login": "Need login."
   },
   "PushNotification": {
     "channel_general_desc": "Namazu will notify you when your retainer has sold some item.",
