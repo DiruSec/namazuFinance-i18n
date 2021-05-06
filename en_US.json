@@ -3,7 +3,7 @@
     "failed_fetch_retainer_list": "Cannot get player ID. Try login again.",
     "failed_read_local_retainer_list": "No retainer exists. Try to sync retainer with lodestone.",
     "fetch_player_data": "Loading character data...",
-    "fetch_retainer_data": "Loading retainer %s's data...",
+    "fetch_retainer_data": "Loading retainer data...",
     "fetch_retainer_list": "Loading retainer list...",
     "logout_player": "Logging out from Lodestone...",
     "success_fetch_login": "Successfully fetched data."
@@ -35,12 +35,15 @@
     "Detail": "Details"
   },
   "MyPage": {
-    "already_login": "You've logged in already.",
     "card_not_login": "Tap to login",
     "card_retainer_name": "Retainer",
     "card_quantity_count": "Total quantity",
     "card_total_gil": "Sales amount",
-    "card_sales_count": "Total records"
+    "card_sales_count": "Total records",
+    "already_login_title": "Logged in",
+    "already_login_content": "What would you want to do?",
+    "btn_select_character": "Switch chatacter",
+    "btn_logout": "Logout"
   },
   "Preference": {
     "background_fetch_alarmmanager_desc": "Fetch sales record by Allagan-tech with high precision but may consume more battery.",
@@ -91,6 +94,14 @@
     "filter_title_itemname": "Item Name",
     "filter_title_price": "Price",
     "filter_title_retainer": "Retainer",
-    "no_sales_record": "No matched record."
+    "no_sales_record": "No matched record.",
+    "filter_title_datepicker": "Sold time"
+  },
+  "Detail": {
+    "graph_average": "Average",
+    "graph_median": "Median",
+    "graph_stddeviation": "Std. Deviation",
+    "graph_total": "Total",
+    "info_sold_time": "Sold time"
   }
 }

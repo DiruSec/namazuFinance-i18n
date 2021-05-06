@@ -3,14 +3,14 @@
     "failed_fetch_retainer_list": "キャラクターIDを取得できませんでした。再ログインを試してください。",
     "failed_read_local_retainer_list": "ローカルリテイナーデータがありません。再取得を試してください。",
     "fetch_player_data": "キャラクターデータの読み込み中…",
-    "fetch_retainer_data": "リテイナー %s の読み込み中…",
+    "fetch_retainer_data": "リテイナーデータの読み込み中…",
     "fetch_retainer_list": "リテイナーリストの読み込み中…",
     "logout_player": "Lodestone からログアウトしています…",
     "success_fetch_login": "データを取得しました"
   },
   "General": {
     "appname": "ナマズおサイフ",
-    "btn_cancel": "いいえ",
+    "btn_cancel": "キャンセル",
     "btn_confirm": "はい",
     "copyright": "FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.\nFINAL FANTASY XIV © SQUARE ENIX CO., LTD. All Rights Reserved.\nThis application is not affiliated with Square Enix.",
     "hour": "時間",
@@ -35,12 +35,15 @@
     "Detail": "詳細情報"
   },
   "MyPage": {
-    "already_login": "すでにログインしてる",
     "card_not_login": "ログイン",
     "card_retainer_name": "リテイナー",
     "card_quantity_count": "アイテム数",
     "card_total_gil": "売上金",
-    "card_sales_count": "売上件数"
+    "card_sales_count": "売上件数",
+    "already_login_title": "ログイン済",
+    "already_login_content": "なにをしますか？",
+    "btn_select_character": "キャラ切替",
+    "btn_logout": "ログアウト"
   },
   "Preference": {
     "background_fetch_alarmmanager_desc": "アラグ技術で売上履歴を取得します。\nデバイスのエーテル消費量が多いが、ナマズオたちの情報収集が定刻になるだろう。",
@@ -91,6 +94,14 @@
     "filter_title_itemname": "アイテム名",
     "filter_title_price": "取引価格",
     "filter_title_retainer": "リテイナー",
-    "no_sales_record": "条件に合った記録がありません。"
+    "no_sales_record": "条件に合った記録がありません。",
+    "filter_title_datepicker": "日時"
+  },
+  "Detail": {
+    "graph_average": "平均単価",
+    "graph_median": "中央値",
+    "graph_stddeviation": "標準偏差",
+    "graph_total": "合計売上",
+    "info_sold_time": "日時"
   }
 }

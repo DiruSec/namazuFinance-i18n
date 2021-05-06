@@ -3,7 +3,7 @@
     "failed_fetch_retainer_list": "无法获取玩家ID。请尝试重新登录。",
     "failed_read_local_retainer_list": "没有本地雇员数据，请尝试重新同步数据。",
     "fetch_player_data": "正在读取角色数据…",
-    "fetch_retainer_data": "正在读取雇员 %s 的数据…",
+    "fetch_retainer_data": "正在读取雇员数据…",
     "fetch_retainer_list": "正在读取雇员列表…",
     "logout_player": "正在从 Lodestone 注销…",
     "success_fetch_login": "获取数据成功"
@@ -35,12 +35,15 @@
     "Detail": "详情"
   },
   "MyPage": {
-    "already_login": "已成功登录。",
     "card_not_login": "轻触以登录",
     "card_retainer_name": "雇员",
     "card_sales_count": "总记录条数",
     "card_quantity_count": "卖出物品数",
-    "card_total_gil": "总计销售额"
+    "card_total_gil": "总计销售额",
+    "already_login_title": "已登录",
+    "already_login_content": "您想做什么？",
+    "btn_select_character": "切换角色",
+    "btn_logout": "注销"
   },
   "Preference": {
     "background_fetch_alarmmanager_desc": "使用亚拉戈技术获取销售记录 -  执行间隔精确但可能消耗更多电量",
@@ -91,6 +94,14 @@
     "filter_title_itemname": "物品名",
     "filter_title_price": "价格",
     "filter_title_retainer": "雇员",
-    "no_sales_record": "没有符合的记录。"
+    "no_sales_record": "没有符合的记录。",
+    "filter_title_datepicker": "成交时间"
+  },
+  "Detail": {
+    "graph_total": "总销售价格",
+    "graph_average": "平均单价",
+    "graph_median": "中位数",
+    "graph_stddeviation": "标准差",
+    "info_sold_time": "成交时间"
   }
 }
