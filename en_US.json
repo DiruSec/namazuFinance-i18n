@@ -102,6 +102,8 @@
     "graph_median": "Median",
     "graph_stddeviation": "Std. Deviation",
     "graph_total": "Total",
-    "info_sold_time": "Sold time"
+    "info_sold_time": "Sold time",
+    "universalis_tap_to_get": "Tap to request Universalis sales data.",
+    "universalis_no_data": "Universalis has no data of this item."
   }
 }

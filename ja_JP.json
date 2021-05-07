@@ -102,6 +102,8 @@
     "graph_median": "中央値",
     "graph_stddeviation": "標準偏差",
     "graph_total": "合計売上",
-    "info_sold_time": "日時"
+    "info_sold_time": "日時",
+    "universalis_tap_to_get": "タップして Universalis の売上履歴を取得します",
+    "universalis_no_data": "Universalis 上のデータがありません"
   }
 }

@@ -102,6 +102,8 @@
     "graph_average": "平均单价",
     "graph_median": "中位数",
     "graph_stddeviation": "标准差",
-    "info_sold_time": "成交时间"
+    "info_sold_time": "成交时间",
+    "universalis_tap_to_get": "轻触以从 Universalis 获取数据",
+    "universalis_no_data": "Universalis 上没有该物品的数据"
   }
 }
