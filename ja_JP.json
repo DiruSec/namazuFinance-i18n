@@ -6,7 +6,8 @@
     "fetch_retainer_data": "リテイナーデータの読み込み中…",
     "fetch_retainer_list": "リテイナーリストの読み込み中…",
     "logout_player": "Lodestone からログアウトしています…",
-    "success_fetch_login": "データを取得しました"
+    "success_fetch_login": "データを取得しました",
+    "failed_no_retainer": "リテイナー持ってないのようです"
   },
   "General": {
     "appname": "ナマズおサイフ",

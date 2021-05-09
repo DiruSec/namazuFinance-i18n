@@ -6,7 +6,8 @@
     "fetch_retainer_data": "正在读取雇员数据…",
     "fetch_retainer_list": "正在读取雇员列表…",
     "logout_player": "正在从 Lodestone 注销…",
-    "success_fetch_login": "获取数据成功"
+    "success_fetch_login": "获取数据成功",
+    "failed_no_retainer": "这个角色似乎未雇用过雇员"
   },
   "General": {
     "appname": "鲶手记",
