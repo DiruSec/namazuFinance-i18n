@@ -9,7 +9,7 @@
     "success_fetch_login": "データを取得しました",
     "failed_no_retainer": "リテイナー持ってないのようです",
     "failed_cookie_expired": "Cookie の有効期限が切れました。再ログインを試してください。",
-    "loading_lodestone_desc": "Lodestone に接続しています…"
+    "loading_lodestone_desc": "Lodestone と通信しています…"
   },
   "General": {
     "appname": "ナマズおサイフ",
