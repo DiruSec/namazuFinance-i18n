@@ -7,7 +7,9 @@
     "fetch_retainer_list": "Loading retainer list...",
     "logout_player": "Logging out from Lodestone...",
     "success_fetch_login": "Successfully fetched data.",
-    "failed_no_retainer": "This character seems hasn't hired any retainer."
+    "failed_no_retainer": "This character seems hasn't hired any retainer.",
+    "failed_cookie_expired": "Cookie seems expired. Try login again.",
+    "loading_lodestone_desc": "Connecting to Lodestone..."
   },
   "General": {
     "appname": "Namazu Finance",

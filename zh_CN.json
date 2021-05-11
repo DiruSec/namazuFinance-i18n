@@ -7,7 +7,9 @@
     "fetch_retainer_list": "正在读取雇员列表…",
     "logout_player": "正在从 Lodestone 注销…",
     "success_fetch_login": "获取数据成功",
-    "failed_no_retainer": "这个角色似乎未雇用过雇员"
+    "failed_no_retainer": "这个角色似乎未雇用过雇员",
+    "failed_cookie_expired": "Cookie 可能已失效，请尝试重新登录。",
+    "loading_lodestone_desc": "正在从 Lodestone 获取数据…"
   },
   "General": {
     "appname": "鲶手记",
@@ -19,8 +21,8 @@
   },
   "LodestoneLogin": {
     "attention_modal_accept": "同意",
-    "attention_modal_content1": "您的 Lodestone 登录凭据 (cookie) 将，\n且仅将用于自动获取雇员销售记录等功能上。\n",
-    "attention_modal_content2": "我们不会，也无法看到您输入的帐号、密码、两步验证码。",
+    "attention_modal_content1": "您的 Lodestone 登录凭据 (cookie) \n仅会被用于自动获取雇员销售记录等功能上。\n",
+    "attention_modal_content2": "我们无法看到，也不会保存您输入的帐号、密码、两步验证码。",
     "attention_modal_content3": "若您继续，则视为您同意我们使用您的 Lodestone 登录凭据。",
     "attention_modal_decline": "拒绝",
     "attention_modal_title": "凭据使用说明"
