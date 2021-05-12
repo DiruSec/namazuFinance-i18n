@@ -14,7 +14,9 @@
     "failed_may_under_maintenance": "Lodestone 可能正在维护",
     "failed_lodestone_may_error": "Lodestone 可能出现问题",
     "failed_other_error": "其它问题",
-    "success_logout": "已注销"
+    "success_logout": "已注销",
+    "fetched_has_new_record": "获取到了新的销售记录",
+    "fetched_no_new_record": "获取完毕，没有新的销售记录"
   },
   "General": {
     "appname": "鲶手记",
@@ -89,7 +91,8 @@
     "waiting_for_implement": "还没写完…",
     "not_login": "请先登录",
     "version_upgrading": "正在升级保存数据…",
-    "version_update_failed": "保存数据未能成功升级"
+    "version_update_failed": "保存数据未能成功升级",
+    "redirect_background_fetch": "后台获取数据需要手动开启，现在就去开启吗？\n（若选择开启，请考虑将本 App 加入后台白名单，避免无法后台获取）"
   },
   "PushNotification": {
     "channel_general_desc": "当你的雇员成功售出物品时，鲶鲶会发送消息通知你。",
@@ -117,6 +120,7 @@
     "graph_stddeviation": "标准差",
     "info_sold_time": "成交时间",
     "universalis_tap_to_get": "轻触以从 Universalis 获取数据",
-    "universalis_no_data": "Universalis 上没有该物品的数据"
+    "universalis_no_data": "Universalis 上没有该物品的数据",
+    "universalis_loading": "正在从 Universalis 获取数据…"
   }
 }

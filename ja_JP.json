@@ -13,7 +13,10 @@
     "failed_promise_list": "次のエラーが起きた：",
     "failed_lodestone_may_error": "Lodestone にてエラーが起きてるかもしれない",
     "failed_other_error": "その他のエラー",
-    "success_logout": "ログアウトしました"
+    "success_logout": "ログアウトしました",
+    "failed_may_under_maintenance": "Lodestone はメンテナンス中かもしれない",
+    "fetched_has_new_record": "新しい販売履歴を取得しました",
+    "fetched_no_new_record": "新しい販売履歴がありませんでした"
   },
   "General": {
     "appname": "ナマズおサイフ",
@@ -54,7 +57,7 @@
     "btn_logout": "ログアウト"
   },
   "Preference": {
-    "background_fetch_alarmmanager_desc": "アラグ技術で売上履歴を取得します。\nデバイスのエーテル消費量が多いが、ナマズオたちの情報収集が定刻になるだろう。",
+    "background_fetch_alarmmanager_desc": "アラグ技術で売上履歴を取得します。\nデバイスのエーテル消費量が多いが、ナマズオたちの情報収集が遅れることなくなるはず。",
     "background_fetch_alarmmanager_title": "有効",
     "background_fetch_disabled_desc": "ナマズオたちを休ませる",
     "background_fetch_disabled_title": "無効",
@@ -88,7 +91,8 @@
     "waiting_for_implement": "まだ開発中…",
     "not_login": "ログイン後に使えます",
     "version_upgrading": "セーブデータのアップデート中…",
-    "version_update_failed": "セーブデータのアップデートを完了できませんした"
+    "version_update_failed": "セーブデータのアップデートを完了できませんした",
+    "redirect_background_fetch": "設定ページで売上履歴の自動取得を有効化にしますか？\n※うまく作動させるためには、OS設定でこのアプリの「電池の最適化」をオフにしてください。"
   },
   "PushNotification": {
     "channel_general_desc": "ナマズオたちが使ってる通知機能。アイテムが売れたときにプッシュ通知が受信します。",
@@ -116,6 +120,7 @@
     "graph_total": "合計売上",
     "info_sold_time": "日時",
     "universalis_tap_to_get": "タップして Universalis の売上履歴を取得します",
-    "universalis_no_data": "Universalis 上のデータがありません"
+    "universalis_no_data": "Universalis 上のデータがありません",
+    "universalis_loading": "Universalis から履歴を取得しています…"
   }
 }

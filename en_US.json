@@ -13,7 +13,10 @@
     "failed_promise_list": "The following error has occured:",
     "failed_lodestone_may_error": "An error may occured on Lodestone",
     "failed_other_error": "Other error",
-    "success_logout": "Logged out."
+    "success_logout": "Logged out.",
+    "failed_may_under_maintenance": "Lodestone may under maintenance now.",
+    "fetched_has_new_record": "Successfully logged new sales record.",
+    "fetched_no_new_record": "Work finished. No new sales record found."
   },
   "General": {
     "appname": "Namazu Finance",
@@ -59,7 +62,7 @@
     "background_fetch_disabled_desc": "Let namazus take a break.",
     "background_fetch_disabled_title": "Disabled",
     "background_fetch_interval_title": "Background fetch interval",
-    "background_fetch_jobscheduler_desc": "Fetch sales record by Eorzea-tech which saves battery but intervals are not stable.",
+    "background_fetch_jobscheduler_desc": "Fetch sales record by Eorzean-tech which saves battery but intervals are not stable.",
     "background_fetch_jobscheduler_title": "Automatically (Power saving)",
     "background_fetch_start_desc": "Start background fetch task manually (for debug)",
     "background_fetch_start_title": "Enable background fetch manually",
@@ -88,7 +91,8 @@
     "waiting_for_implement": "Still on implement...",
     "not_login": "Need login.",
     "version_upgrading": "Upgrading savedata...",
-    "version_update_failed": "Cannot upgrade your savedata"
+    "version_update_failed": "Cannot upgrade your savedata",
+    "redirect_background_fetch": "Fetch record when background needs enable manually. Forward to preference page now?\n(Consider to disable this app's \"Battery Optimization\" for accurate fetching.)"
   },
   "PushNotification": {
     "channel_general_desc": "Namazu will notify you when your retainer has sold some item.",
@@ -116,6 +120,7 @@
     "graph_total": "Total",
     "info_sold_time": "Sold time",
     "universalis_tap_to_get": "Tap to request Universalis sales data.",
-    "universalis_no_data": "Universalis has no data of this item."
+    "universalis_no_data": "Universalis has no data of this item.",
+    "universalis_loading": "Requesting data from Universalis..."
   }
 }
