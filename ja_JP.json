@@ -86,13 +86,17 @@
     "time_4h": "4 時間",
     "time_6h": "6 時間",
     "waiting_for_implement": "まだ開発中…",
-    "not_login": "ログイン後に使えます"
+    "not_login": "ログイン後に使えます",
+    "version_upgrading": "セーブデータのアップデート中…",
+    "version_update_failed": "セーブデータのアップデートを完了できませんした"
   },
   "PushNotification": {
     "channel_general_desc": "ナマズオたちが使ってる通知機能。アイテムが売れたときにプッシュ通知が受信します。",
     "channel_general_title": "通常プッシュ通知",
     "soldmessage": "マーケットで出品した %s つのアイテムが売れ、%s ギルを入手しました。",
-    "title": "売れたっぺ"
+    "title": "売れたっぺ",
+    "cookie_expired_title": "ちょっとっぺよ",
+    "cookie_expired_desc": "だれかの Cookie の有効期限が切れたっぺ。ひまがあったらチェックだっぺ。"
   },
   "RetainerPage": {
     "filter_btn_filter": "フィルタセット",

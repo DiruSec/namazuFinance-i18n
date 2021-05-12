@@ -87,13 +87,17 @@
     "time_4h": "4 小时",
     "time_6h": "6 小时",
     "waiting_for_implement": "还没写完…",
-    "not_login": "请先登录"
+    "not_login": "请先登录",
+    "version_upgrading": "正在升级保存数据…",
+    "version_update_failed": "保存数据未能成功升级"
   },
   "PushNotification": {
     "channel_general_desc": "当你的雇员成功售出物品时，鲶鲶会发送消息通知你。",
     "channel_general_title": "一般通知",
     "soldmessage": "于市场出售的 %s 件商品售出，获得了 %s 金币。",
-    "title": "卖掉了噗"
+    "title": "卖掉了噗",
+    "cookie_expired_title": "似乎有问题噗",
+    "cookie_expired_desc": "有人的 Cookie 似乎已经过期，请重新登录噗。"
   },
   "RetainerPage": {
     "filter_btn_filter": "确定",
