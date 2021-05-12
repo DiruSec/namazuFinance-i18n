@@ -9,7 +9,11 @@
     "success_fetch_login": "Successfully fetched data.",
     "failed_no_retainer": "This character seems hasn't hired any retainer.",
     "failed_cookie_expired": "Cookie seems expired. Try login again.",
-    "loading_lodestone_desc": "Connecting to Lodestone..."
+    "loading_lodestone_desc": "Connecting to Lodestone...",
+    "failed_promise_list": "The following error has occured:",
+    "failed_lodestone_may_error": "An error may occured on Lodestone",
+    "failed_other_error": "Other error",
+    "success_logout": "Logged out."
   },
   "General": {
     "appname": "Namazu Finance",
@@ -25,7 +29,8 @@
     "attention_modal_content2": "We won't save your account, password or one-time password.",
     "attention_modal_content3": "By continue, you agree with the usage of your Lodestone Credentials.",
     "attention_modal_decline": "Decline",
-    "attention_modal_title": "About your login"
+    "attention_modal_title": "About your login",
+    "error_region_forbidden": "Your login request was forbidden by Square Enix. Change your network and try again."
   },
   "Menu": {
     "about": "About",

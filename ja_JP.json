@@ -9,7 +9,11 @@
     "success_fetch_login": "データを取得しました",
     "failed_no_retainer": "リテイナー持ってないのようです",
     "failed_cookie_expired": "Cookie の有効期限が切れました。再ログインを試してください。",
-    "loading_lodestone_desc": "Lodestone と通信しています…"
+    "loading_lodestone_desc": "Lodestone と通信しています…",
+    "failed_promise_list": "次のエラーが起きた：",
+    "failed_lodestone_may_error": "Lodestone にてエラーが起きてるかもしれない",
+    "failed_other_error": "その他のエラー",
+    "success_logout": "ログアウトしました"
   },
   "General": {
     "appname": "ナマズおサイフ",
@@ -25,7 +29,8 @@
     "attention_modal_content2": "登録ID、パスワード、ワンタイムパスワードは保存されません。",
     "attention_modal_content3": "同意いただける場合は、Lodestone ログイン情報使用の了承とみなされます。",
     "attention_modal_decline": "いいえ",
-    "attention_modal_title": "ログイン情報について"
+    "attention_modal_title": "ログイン情報について",
+    "error_region_forbidden": "ログインアクセスがスクエア・エニックスに拒否されました。ネット環境を変えてから再度試してください。"
   },
   "Menu": {
     "about": "このアプリについて",
