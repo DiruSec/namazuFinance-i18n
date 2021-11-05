@@ -97,10 +97,11 @@
   "PushNotification": {
     "channel_general_desc": "当你的雇员成功售出物品时，鲶鲶会发送消息通知你。",
     "channel_general_title": "一般通知",
-    "soldmessage": "于市场出售的 %s 件商品售出，获得了 %s 金币。",
+    "soldmessage": "于市场出售的 %s 成功售出，获得了 %s 金币。",
     "title": "卖掉了噗",
     "cookie_expired_title": "似乎有问题噗",
-    "cookie_expired_desc": "有人的 Cookie 似乎已经过期，请重新登录噗。"
+    "cookie_expired_desc": "有人的 Cookie 似乎已经过期，请重新登录噗。",
+    "soldmessage_multi": "于市场出售的 %s 及其它 %s 件商品售出，获得了 %s 金币。"
   },
   "RetainerPage": {
     "filter_btn_filter": "确定",

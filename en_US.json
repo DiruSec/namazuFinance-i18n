@@ -97,10 +97,11 @@
   "PushNotification": {
     "channel_general_desc": "Namazu will notify you when your retainer has sold some item.",
     "channel_general_title": "General Notifications",
-    "soldmessage": "%s item(s) you put up for sale in the markets have sold for %s gil (after fees).",
+    "soldmessage": "%s you put up for sale in the markets have sold for %s gil (after fees).",
     "title": "Item has sold!",
     "cookie_expired_desc": "Someone's cookie seems expired. Maybe you can login again.",
-    "cookie_expired_title": "Something has happened."
+    "cookie_expired_title": "Something has happened.",
+    "soldmessage_multi": "%s and other %s item(s) you put up for sale in the markets have sold for %s gil (after fees)."
   },
   "RetainerPage": {
     "filter_btn_filter": "OK",

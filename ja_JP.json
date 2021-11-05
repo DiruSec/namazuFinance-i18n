@@ -97,10 +97,11 @@
   "PushNotification": {
     "channel_general_desc": "ナマズオたちが使ってる通知機能。アイテムが売れたときにプッシュ通知が受信します。",
     "channel_general_title": "通常プッシュ通知",
-    "soldmessage": "マーケットで出品した %s つのアイテムが売れ、%s ギルを入手しました。",
+    "soldmessage": "マーケットで出品した %s が売れ、%s ギルを入手しました。",
     "title": "売れたっぺ",
     "cookie_expired_title": "ちょっとっぺよ",
-    "cookie_expired_desc": "だれかの Cookie の有効期限が切れたっぺ。ひまがあったらチェックだっぺ。"
+    "cookie_expired_desc": "だれかの Cookie の有効期限が切れたっぺ。ひまがあったらチェックだっぺ。",
+    "soldmessage_multi": "マーケットで出品した %s と他 %s 件のアイテムが売れ、%s ギルを入手しました。"
   },
   "RetainerPage": {
     "filter_btn_filter": "フィルタセット",
