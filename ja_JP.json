@@ -92,15 +92,19 @@
     "not_login": "ログイン後に使えます",
     "version_upgrading": "セーブデータのアップデート中…",
     "version_update_failed": "セーブデータのアップデートを完了できませんした",
-    "redirect_background_fetch": "設定ページで売上履歴の自動取得を有効化にしますか？\n※うまく作動させるためには、OS設定でこのアプリの「電池の最適化」をオフにしてください。"
+    "redirect_background_fetch": "設定ページで売上履歴の自動取得を有効化にしますか？\n※うまく作動させるためには、OS設定でこのアプリの「電池の最適化」をオフにしてください。",
+    "dialog_regenerate_gamedb_desc": "アイテムデータベースの再構築が終了しました。アプリを再起動してください。",
+    "regenerate_gamedb_error_title": "再構築エラー",
+    "regenerate_gamedb_error_desc": "再構築が正常に終了してなかったの可能性があります。アプリを再起動してください。\nアプリが動かなくなったら、開発者にログを提出してください。"
   },
   "PushNotification": {
     "channel_general_desc": "ナマズオたちが使ってる通知機能。アイテムが売れたときにプッシュ通知が受信します。",
     "channel_general_title": "通常プッシュ通知",
-    "soldmessage": "マーケットで出品した %s つのアイテムが売れ、%s ギルを入手しました。",
+    "soldmessage": "マーケットで出品した %s が売れ、%s ギルを入手しました。",
     "title": "売れたっぺ",
     "cookie_expired_title": "ちょっとっぺよ",
-    "cookie_expired_desc": "だれかの Cookie の有効期限が切れたっぺ。ひまがあったらチェックだっぺ。"
+    "cookie_expired_desc": "だれかの Cookie の有効期限が切れたっぺ。ひまがあったらチェックだっぺ。",
+    "soldmessage_multi": "マーケットで出品した %s と他 %s 件のアイテムが売れ、%s ギルを入手しました。"
   },
   "RetainerPage": {
     "filter_btn_filter": "フィルタセット",
@@ -122,5 +126,13 @@
     "universalis_tap_to_get": "タップして Universalis の売上履歴を取得します",
     "universalis_no_data": "Universalis 上のデータがありません",
     "universalis_loading": "Universalis から履歴を取得しています…"
+  },
+  "Error": {
+    "error_network_forbidden_desc": "アクセスが拒否されました。",
+    "error_network_notfound_desc": "アクセス先が見つからない",
+    "error_network_timeout_desc": "時間内に応答ありません",
+    "error_network_noconnection_desc": "ネットワークを接続してません",
+    "error_parse_pageerror_desc": "Lodestone データの処理が失敗しました",
+    "error_database_general_desc": "データベースのエラーがおきました"
   }
 }

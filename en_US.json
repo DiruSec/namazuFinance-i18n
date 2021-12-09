@@ -92,15 +92,19 @@
     "not_login": "Need login.",
     "version_upgrading": "Upgrading savedata...",
     "version_update_failed": "Cannot upgrade your savedata",
-    "redirect_background_fetch": "Fetch record when background needs enable manually. Forward to preference page now?\n(Consider to disable this app's \"Battery Optimization\" for accurate fetching.)"
+    "redirect_background_fetch": "Fetch record when background needs enable manually. Forward to preference page now?\n(Consider to disable this app's \"Battery Optimization\" for accurate fetching.)",
+    "dialog_regenerate_gamedb_desc": "Database regenerated. Try restart application manually.",
+    "regenerate_gamedb_error_title": "Regenerate database error",
+    "regenerate_gamedb_error_desc": "An error occured and database may not regenerated. Try restart application manually. \nIf application doesn't work anymore, send application log to developer."
   },
   "PushNotification": {
     "channel_general_desc": "Namazu will notify you when your retainer has sold some item.",
     "channel_general_title": "General Notifications",
-    "soldmessage": "%s item(s) you put up for sale in the markets have sold for %s gil (after fees).",
+    "soldmessage": "%s you put up for sale in the markets have sold for %s gil (after fees).",
     "title": "Item has sold!",
     "cookie_expired_desc": "Someone's cookie seems expired. Maybe you can login again.",
-    "cookie_expired_title": "Something has happened."
+    "cookie_expired_title": "Something has happened.",
+    "soldmessage_multi": "%s and other %s items you put up for sale in the markets have sold for %s gil (after fees)."
   },
   "RetainerPage": {
     "filter_btn_filter": "OK",
@@ -122,5 +126,13 @@
     "universalis_tap_to_get": "Tap to request Universalis sales data.",
     "universalis_no_data": "Universalis has no data of this item.",
     "universalis_loading": "Requesting data from Universalis..."
+  },
+  "Error": {
+    "error_network_forbidden_desc": "Access forbidden.",
+    "error_network_notfound_desc": "Destination page not found.",
+    "error_network_timeout_desc": "Access timeout",
+    "error_network_noconnection_desc": "No network connection.",
+    "error_parse_pageerror_desc": "Not a vaild lodestone data",
+    "error_database_general_desc": "A database error has occured"
   }
 }

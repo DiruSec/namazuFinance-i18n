@@ -92,15 +92,19 @@
     "not_login": "请先登录",
     "version_upgrading": "正在升级保存数据…",
     "version_update_failed": "保存数据未能成功升级",
-    "redirect_background_fetch": "后台获取数据需要手动开启，现在就去开启吗？\n（若选择开启，请考虑将本 App 加入后台白名单，避免无法后台获取）"
+    "redirect_background_fetch": "后台获取数据需要手动开启，现在就去开启吗？\n（若选择开启，请考虑将本 App 加入后台白名单，避免无法后台获取）",
+    "dialog_regenerate_gamedb_desc": "已重新生成数据库，请尝试手动重启应用程序。",
+    "regenerate_gamedb_error_title": "重新生成数据库错误",
+    "regenerate_gamedb_error_desc": "可能未能重新生成数据库。请尝试重新启动应用程序。\n若应用程序工作不正常，请向开发者发送日志。"
   },
   "PushNotification": {
     "channel_general_desc": "当你的雇员成功售出物品时，鲶鲶会发送消息通知你。",
     "channel_general_title": "一般通知",
-    "soldmessage": "于市场出售的 %s 件商品售出，获得了 %s 金币。",
+    "soldmessage": "于市场出售的 %s 成功售出，获得了 %s 金币。",
     "title": "卖掉了噗",
     "cookie_expired_title": "似乎有问题噗",
-    "cookie_expired_desc": "有人的 Cookie 似乎已经过期，请重新登录噗。"
+    "cookie_expired_desc": "有人的 Cookie 似乎已经过期，请重新登录噗。",
+    "soldmessage_multi": "于市场出售的 %s 等 %s 件商品售出，获得了 %s 金币。"
   },
   "RetainerPage": {
     "filter_btn_filter": "确定",
@@ -122,5 +126,13 @@
     "universalis_tap_to_get": "轻触以从 Universalis 获取数据",
     "universalis_no_data": "Universalis 上没有该物品的数据",
     "universalis_loading": "正在从 Universalis 获取数据…"
+  },
+  "Error": {
+    "error_network_timeout_desc": "访问超时",
+    "error_network_forbidden_desc": "没有权限访问目标页面",
+    "error_network_notfound_desc": "无法获取目标页面",
+    "error_network_noconnection_desc": "未连接到互联网",
+    "error_parse_pageerror_desc": "无法处理 Lodestone 数据",
+    "error_database_general_desc": "数据库出现了一个问题"
   }
 }
