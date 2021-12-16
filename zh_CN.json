@@ -93,9 +93,20 @@
     "version_upgrading": "正在升级保存数据…",
     "version_update_failed": "保存数据未能成功升级",
     "redirect_background_fetch": "后台获取数据需要手动开启，现在就去开启吗？\n（若选择开启，请考虑将本 App 加入后台白名单，避免无法后台获取）",
-    "dialog_regenerate_gamedb_desc": "已重新生成数据库，请尝试手动重启应用程序。",
+    "dialog_regenerate_gamedb_desc": "已重新生成数据库，请尝试刷新销售记录列表或重新获取。",
     "regenerate_gamedb_error_title": "重新生成数据库错误",
-    "regenerate_gamedb_error_desc": "可能未能重新生成数据库。请尝试重新启动应用程序。\n若应用程序工作不正常，请向开发者发送日志。"
+    "regenerate_gamedb_error_desc": "可能未能重新生成数据库。请尝试重新启动应用程序。\n若应用程序工作不正常，请向开发者发送日志。",
+    "export_app_data_title": "导出销售数据",
+    "export_app_data_desc": "导出本地保存的销售记录数据",
+    "import_app_data_title": "导入销售数据",
+    "import_app_data_desc": "导入备份的销售数据至设备中",
+    "import_app_data_notice_dialog_desc": "\n将合并现有数据与导入数据。如遇冲突数据，将跳过对应数据。",
+    "dialog_export_app_data_success": "成功导出数据",
+    "dialog_export_app_data_failed": "导出数据过程中出现了一个错误",
+    "import_app_data_success_title": "导入销售数据完成",
+    "import_app_data_success_desc": "成功导入了销售数据：",
+    "import_app_data_error_desc": "未能成功导入销售数据。可能是数据损坏，或是应用程序发生了一个错误。",
+    "import_app_data_notvaild_desc": "这不是一个有效的数据备份"
   },
   "PushNotification": {
     "channel_general_desc": "当你的雇员成功售出物品时，鲶鲶会发送消息通知你。",
@@ -129,10 +140,12 @@
   },
   "Error": {
     "error_network_timeout_desc": "访问超时",
-    "error_network_forbidden_desc": "没有权限访问目标页面",
-    "error_network_notfound_desc": "无法获取目标页面",
+    "error_network_forbidden_desc": "没有权限访问目标页面，可能是Cookie已过期",
+    "error_network_notfound_desc": "无法获取目标页面。可能是Cookie已过期。",
     "error_network_noconnection_desc": "未连接到互联网",
-    "error_parse_pageerror_desc": "无法处理 Lodestone 数据",
-    "error_database_general_desc": "数据库出现了一个问题"
+    "error_parse_pageerror_desc": "无法处理 Lodestone 数据。Lodestone 的排版样式可能有更新。",
+    "error_database_general_desc": "数据库出现了一个问题",
+    "error_network_error_general": "无法访问网络，请确认 Lodestone 是否能正常访问。",
+    "error_general_desc": "出现了一个错误，请将日志发送给开发者以排查问题。"
   }
 }

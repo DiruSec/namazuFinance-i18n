@@ -93,9 +93,20 @@
     "version_upgrading": "Upgrading savedata...",
     "version_update_failed": "Cannot upgrade your savedata",
     "redirect_background_fetch": "Fetch record when background needs enable manually. Forward to preference page now?\n(Consider to disable this app's \"Battery Optimization\" for accurate fetching.)",
-    "dialog_regenerate_gamedb_desc": "Database regenerated. Try restart application manually.",
+    "dialog_regenerate_gamedb_desc": "Database regenerated. Try refresh list or manually fetch again.",
     "regenerate_gamedb_error_title": "Regenerate database error",
-    "regenerate_gamedb_error_desc": "An error occured and database may not regenerated. Try restart application manually. \nIf application doesn't work anymore, send application log to developer."
+    "regenerate_gamedb_error_desc": "An error occured and database may not regenerated. Try restart application manually. \nIf application doesn't work anymore, send application log to developer.",
+    "export_app_data_title": "Export sales records",
+    "export_app_data_desc": "Export sales records saved on device.",
+    "import_app_data_title": "Import sales records",
+    "import_app_data_desc": "Import sales records from backup to device.",
+    "import_app_data_notice_dialog_desc": "\nWill merge imported data with current data. Conflict data will not be imported.",
+    "dialog_export_app_data_success": "Data exported",
+    "dialog_export_app_data_failed": "An error occured while exporting data",
+    "import_app_data_success_title": "Import success",
+    "import_app_data_success_desc": "Successfully imported sales record(s):",
+    "import_app_data_error_desc": "Failed to import sales records. Data may corrupted, or application error has occured.",
+    "import_app_data_notvaild_desc": "Imported file does not contain a valid backup data."
   },
   "PushNotification": {
     "channel_general_desc": "Namazu will notify you when your retainer has sold some item.",
@@ -128,11 +139,13 @@
     "universalis_loading": "Requesting data from Universalis..."
   },
   "Error": {
-    "error_network_forbidden_desc": "Access forbidden.",
-    "error_network_notfound_desc": "Destination page not found.",
+    "error_network_forbidden_desc": "Access forbidden. Cookie may expired.",
+    "error_network_notfound_desc": "Destination page not found. Cookie may expired.",
     "error_network_timeout_desc": "Access timeout",
     "error_network_noconnection_desc": "No network connection.",
-    "error_parse_pageerror_desc": "Not a vaild lodestone data",
-    "error_database_general_desc": "A database error has occured"
+    "error_parse_pageerror_desc": "Cannot process fetched data. Lodestone's layout may changed.",
+    "error_database_general_desc": "A database error has occured",
+    "error_network_error_general": "Unable connect to network. Check if Lodestone can be accessed.",
+    "error_general_desc": "An error occured. Send log to developer to confirm what has happened."
   }
 }
