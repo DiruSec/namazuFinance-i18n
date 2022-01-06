@@ -92,7 +92,21 @@
     "not_login": "ログイン後に使えます",
     "version_upgrading": "セーブデータのアップデート中…",
     "version_update_failed": "セーブデータのアップデートを完了できませんした",
-    "redirect_background_fetch": "設定ページで売上履歴の自動取得を有効化にしますか？\n※うまく作動させるためには、OS設定でこのアプリの「電池の最適化」をオフにしてください。"
+    "redirect_background_fetch": "設定ページで売上履歴の自動取得を有効化にしますか？\n※うまく作動させるためには、OS設定でこのアプリの「電池の最適化」をオフにしてください。",
+    "dialog_regenerate_gamedb_desc": "アイテムデータベースの再構築が終了しました。リストの再読込または履歴の再取得を試してください。",
+    "regenerate_gamedb_error_title": "再構築エラー",
+    "regenerate_gamedb_error_desc": "再構築が正常に終了してなかったの可能性があります。アプリを再起動してください。\nアプリが動かなくなったら、開発者にログを提出してください。",
+    "export_app_data_title": "売上履歴エクスポート",
+    "export_app_data_desc": "デバイスに保存されてる売上履歴を出力",
+    "import_app_data_title": "売上履歴インポート",
+    "import_app_data_desc": "売上履歴のバックアップを読み込む",
+    "import_app_data_notice_dialog_desc": "\n既存データと読み込んだデータの統合を行います。重複データは読み込みません。",
+    "dialog_export_app_data_success": "データ出力が完了しました",
+    "dialog_export_app_data_failed": "データ出力中に問題が発生しました",
+    "import_app_data_success_title": "読み込み完了",
+    "import_app_data_success_desc": "売上データの読み込みが完了しました：",
+    "import_app_data_error_desc": "データの読み込みが完了できませんでした。データが破損してる、もしくはアプリがエラーが発生しました。",
+    "import_app_data_notvaild_desc": "読み込んだデータには有効な売上履歴が存在しません。"
   },
   "PushNotification": {
     "channel_general_desc": "ナマズオたちが使ってる通知機能。アイテムが売れたときにプッシュ通知が受信します。",
@@ -123,5 +137,15 @@
     "universalis_tap_to_get": "タップして Universalis の売上履歴を取得します",
     "universalis_no_data": "Universalis 上のデータがありません",
     "universalis_loading": "Universalis から履歴を取得しています…"
+  },
+  "Error": {
+    "error_network_forbidden_desc": "アクセスが拒否されました。Cookieの有効期限が切れてる可能性があります",
+    "error_network_notfound_desc": "アクセス先が見つからない。Cookieの有効期限が切れてる可能性があります。",
+    "error_network_timeout_desc": "時間内に応答ありません",
+    "error_network_noconnection_desc": "ネットワークを接続してません",
+    "error_parse_pageerror_desc": "Lodestone データの処理が失敗しました。Lodestone のレイアウトがアップデートされた可能性があります。",
+    "error_database_general_desc": "データベースエラー",
+    "error_network_error_general": "接続できません。Lodestone への接続状況を確認してください。",
+    "error_general_desc": "エラーが起きました。ログを開発者に提出して、エラーの解決に協力してください。"
   }
 }
